@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Akirachix</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+	<img src="{{student.student_image.url}}">
+	{{student.first_name}}
+	{{student.registration_number}}
+	<td><a href="/student/edit/{{student.pk}}/">Edit Details</a></td>
+</body>
+</html>
